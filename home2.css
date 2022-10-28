@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    background-color: rgba(235,232,232,255);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.mains{
+    background-color: aqua;
+    background-image: url(/image/key.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 700px;
+}
+
+.maint{
+    background-color: aqua;
+    background-image: url(/image/t-page.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 700px;
+}
+
+img{
+    margin-top: 90px;
+    width: 400px;
+    height: 400px;
+}
+
+.sec{
+    width: 45%;
+    text-align: center;
+}
+
+.side{
+    width: 55%;
+    text-align: center;
+}
+
+.sides{
+    width: 55%;
+    padding-top: 50px;
+}
+
+.div{
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    color: blue;
+}
+
+.divs{
+    color: ghostwhite;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+h1,h4{
+    margin-top: 20px;
+    color: chartreuse;
+}
+
+h2,a{
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+}

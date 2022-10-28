@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    background-color: rgba(235,232,232,255);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+main{
+    background-color: aqua;
+    background-image: url(/image/paris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 650px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 90px;
+}
+
+h1{
+    margin: 20px;
+}
+
+h4{
+    margin: 20px;
+}
+
+.reg-btn{
+    border-radius: 25%;
+    margin-left: 40px;
+    animation: blinker 2.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgba(235,232,232,255);
+    height: 100px;
+}
+
+h2,a{
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: brown;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+}

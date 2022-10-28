@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    align-items: center;
+    background-color: rgba(235,232,232,255);
+    font-family: Combo;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+main{
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+    width: 60%;
+    height: 450px;
+    background-color: gray;
+    border-radius: 25%;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    font-style: oblique;
+}
+
+label{
+    color: honeydew;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding-bottom: 20px;
+}
